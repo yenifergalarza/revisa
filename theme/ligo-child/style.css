@@ -1,0 +1,45 @@
+@charset 'utf-8';
+/*
+ Theme Name:   Ligo
+ Theme URI:    http://ziccosor.pe
+ Description:  ligo - tarjeta prepago mastercard
+ Author:       ziccosor
+ Author URI:   http://ziccosor.pe
+ Template:     ligo
+ Version:      4.2
+ Tags:         light, inheritable theme-options
+ Text Domain:  ligo.pe
+*/
+
+
+@import url("../ligo/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+.form-p{
+	padding-bottom:10px;
+}
+.form-p input{
+	width:100%;
+}
+.form-p textarea{
+	width:100%;
+}
+.btn-form input{
+	min-width:300px;
+	padding:5px 15px;
+	margin:0 auto;
+	color: #6000ad;
+    background: #24f733;
+	border-radius:25px;
+	height:42px;
+	font-size:16px;
+	font-family: 'pantonblack_italic_caps';
+}
+.btn-form input:hover{
+	background: #6000ad;
+    color: #24f733;
+}

@@ -1,0 +1,9 @@
+<?php
+/**
+ * Child-Theme functions and definitions
+ */
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
+
+
+
+?>

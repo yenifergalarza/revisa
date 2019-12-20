@@ -1,0 +1,199 @@
+Version 4.3
+	+ WP Socials Login (and similar plugins) compatibility is added
+	* WP Audio playlist initialization was fixed
+	* Responsive menu functionality is improved
+	+ Plugins included in the theme, updated to their latest versions.
+
+Version 4.2
+	+ Google 'Browser API Key' support is added
+	+ Plugins included in the theme, updated to their latest versions.
+
+Version 4.1
+    + Compatibility with Visual Composer 4.12 is improved.
+	+ Plugins included in the theme, updated to their latest versions.
+
+Version 4.0.2
+    + Compatibility with Visual Composer Frontend Editor is improved.
+
+Version 4.0.1
+    * Scroll behaviour of the layout 'Timeline' in the shortcode 'Blogger' is fixed
+	+ Plugins included in the theme, updated to their latest versions.
+
+Version 4.0
+    + Compatibility with RevSlider 5.2.x is improved.
+    + Compatibility with WP 4.5 is improved.
+	+ Plugins included in the theme, updated to their latest versions.
+
+Version 3.9
+    + Compatibility with Visual Composer 4.7 (Frontend Editor) is improved.
+	* Minor fixes in some shortcodes layout.
+	+ Plugins included in the theme, updated to their latest versions.
+
+Version 3.8
+    + Compatibility with Visual Composer 4.7 (Frontend Editor) is improved.
+    + Custom menu (multicolumns mode) is fixed.
+
+Version 3.7
+    + Compatibility with WP 4.3 is improved. 
+
+Version 3.6
+    + Scripts, styles and font loading is based on the current site protocol: http or https
+    * Position of the custom menu with multicolumns layout is fixed.
+    * Dependencies checker in multitabs shortcodes is fixed.
+    * Layout of shortcode [trx_gap] is fixed.
+    * New user registration popup appear only if WordPress checkbox 'Anyone can register' is checked.
+	+ Plugins included in the theme, updated to their latest versions.
+
+Version 3.5
+	* Theme compatibility with new version of Visual Composer 4.6.0 is improved.
+	+ Plugins included in the theme, updated to their latest versions.
+
+Version 3.4
+	+ Title and description for the Google map markers is added
+	+ Plugins included in the theme, updated to their latest versions.
+
+Version 3.3
+	+ Plugins included in the theme, updated to their latest versions
+	+ Compatibility with WooComerce's latest versions is improved.
+	* Plugin 'Emailer' - incorrect message processing is fixed.
+
+Version 3.2
+	+ Plugins included in the theme, updated to their latest versions
+	* Minor fix: Google map latlng detection is fixed
+
+Version 3.1
+	* Fixed: Googlemap display in initially hidden areas (tabs, accordion, etc.)
+
+Version 3.0
+	+ Added: Scroll capability for the blogger shortcode - now you can create scroll area
+	         with any posts layouts!
+	+ Added: New user registration notify message to user, admin or both
+	+ Change:New main menu icon position in responsive resolutions save more space in the header
+	* Fixed: Googlemap position on latitude and longtitude instead address
+	* Fixed: Post/Page/Category options layouts in the responsive resolutions
+	* Fixed: Portfolio circle hovers
+	* Fixed: Hide blog counters option is now work correctly
+	* Fixed: "Toggles item" and "Team member" settings in the shortcodes builder
+	* Fixed: Minor functionality fixes in some shortcodes
+
+Version 2.9
+	+ Added: Meta tags for correct image sharing in Facebook
+	+ Added: New user authorization method - by email. Now you can log in by username or e-mail.
+	* Fixed: Shortcode "Team item" options window in Visual Composer
+	* Fixed: Theme Slider scaling in responsive resolutions
+	* Fixed: Improve security when importing dummy data
+	* Fixed: Autoplay parameter in shortcode [trx_video]
+
+Version 2.8
+	+ Added: New shortcodes support in Visual Composer
+	+ Fixed: Theme Slider and VC Slider compatibility (at the time of placement on the same page)
+
+Version 2.7
+	+ Added: Shortcodes functionality improved
+	+ Added: Main and user menus text color selector
+	+ Added: Widget "ThemeREX Calendar" with Events support
+	* Added: WooCommerce shortcodes in the Visual Composer
+	* Added: Visual Composer backend editor wrapper. Now edit pages using visual composer became much more comfortable and more efficient
+	* Fixed: Visual Composer frontend editor compatibility (error 404 on draft posts)
+	* Fixed: Portfolio hover "Shift"
+
+Version 2.6
+	+ Added: Blog and Portfolio functionality improved
+	* Fixed: Parallax video background resize for responsive
+
+Version 2.5
+	+ Added: Video background in the parallax blocks
+	+ Added: Shortcodes functionality improved
+	+ Added: The Events Calendar plugin support
+	+ Added: Media Elements player styles
+	* Fixed: Video frames resize
+
+Version 2.4
+	+ Added: Custom @font-face support. Create your @font-face kit by using Fontsquirrel @font-face Generator 
+	  and then extract the font kit (with folder in the kit) into the "theme_name/css/font-face" folder to install.
+	+ Added: Sliders and Shortcodes functionality improved
+	+ Added: Theme Options usability increased
+
+Version 2.3
+	+ Fixed: Post ID in the comments form section
+	+ Added: Main Menu icons and description (if Custom menu is enabled)
+	+ Added: Documentation for the theme skin creation
+	+ Added: Widget "Subcategories List" - show all subcategories from selected category
+
+Version 2.2
+	+ Responsive layout is improved
+	+ Fixed: Child theme stylesheet
+
+Version 2.1
+	+ Added: More flexible fixed menu management achieved.
+	+ Added: Child theme folder
+	+ Added: New header style - over the main slider (only for "boxed" body style)
+	+ Added: New parameters in some shortcodes
+	+ Added: Many improvements in the mechanism of skin's creation
+	+ Fixed: Detected bugs
+
+Version 2.0
+	+ More flexible logo size and position management achieved.
+	+ Added: Built-in demo data import: one click  - and your website becomes a precise copy of our demo site!
+	+ Added: Flexible child themes support
+
+Version 1.9
+	+ Added: compatibility with Isotope 2 (included into the pack of new versions of Visual Composer)
+	+ Added: import/export of theme settings (as well as of inherited settings for categories, posts, and pages)
+	+ Now there's no limits on the number of pictures to be put out via the Flickr widget.
+    * Fixed: Posts' putout if WPML plugin is activated
+
+Version 1.8
+	+ Added: Menu Items Description support (if used Custom Menu Builder)
+	+ Added: TGM Activation used for recommended and required plugins
+	+ Fixed: Portfolio hover style "Book" after "Load more" 
+	+ Fixed: Masonry height detection after "Load More"
+
+Version 1.7
+	+ Fixed: Fullscreen Revolution slider behaviour
+	+ Added: Wordpress calendar AJAX month switcher
+	+ Added: BuddyPress and bbPress compatibility
+
+Version 1.6
+	+ Fixed: slider's behaviour inside isotope blocks
+	+ Added: speed managing for parallax effects
+	+ Added: color settings for main and user menus
+	+ Added: color autodetection for top panel depending on the background selected
+	+ Added: theme skins support
+
+Version 1.5
+	+ Added: Minified versions for all .css and .js files (theme use minified version if you turn off "Debug mode" in Settings - ThemeREX Options - General)
+	+ Added: Instagram widget support
+	+ Added: User menu in website's header
+	+ Added: Settings for the line with contact information in website's header
+	+ Added: Adjustment of logo's position and size for website's header and footer
+	+ Added: Automatic identification of position of drop-down menus on narrow screens
+	+ Improved: Responsive for widgets in tabs on the top panel
+	+ Improved: Capacity of the theme's core
+
+Version 1.4
+	+ Timer for demo of left and right panel is added
+	+ Compatibility with the new version of Visual Composer 4.2 is added
+	+ Shortcode 'blogger' now contains parameter date_style="F1+F2": where F1 and F2 - date display format.
+	  E.g. if we want on style="date" time at the top, and date below, it would be date_style="H:i+F d"
+	+ Similar is the news slider for pagination type="full": e.g. date_style="H:i d.m"
+
+Version 1.3
+	+ Menu placement in case of non-standard logo's size is fixed;
+	+ Additional hovers functionality is improved
+	+ Plugin RoyalSlider detection is improved
+	+ Support of shortcodes in Popup Text Editor in Visual Composer is added.
+	+ New slider style is added
+	
+Version 1.2
+	+ An option to customize header section added;
+	+ Menu's placement manager added (right from the logo or left (under the logo));
+	+ Logo's placement manager added (in case when the logo is above the menu) - left, in the center, right
+
+Version 1.1
+	+ Sound on menu, buttons and links hover was added
+	+ Behavior of pages and shortcodes with responsive is improved (including log-in form, pricing tables etc)
+	+ Lots of hover effects for portfolio is added
+
+Version 1.0
+	Release

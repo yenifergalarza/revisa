@@ -1,0 +1,9 @@
+@media (min-width: 480px) and (max-width: 799px) {
+	.sliderHomeBullets.slider_alias_1 .slide-3 .textBlock { top: 17%; }
+	.sliderHomeBullets.slider_alias_1 .slide-3 .order{ top: 65%; }
+}
+@media (max-width: 479px) {
+	.sliderHomeBullets.slider_alias_1 .slide-2 .textBlock { top: 25%; }
+	.sliderHomeBullets.slider_alias_1 .slide-3 .textBlock { top: 17%; }
+	.sliderHomeBullets.slider_alias_1 .slide-3 .order{ top: 65%; }
+}

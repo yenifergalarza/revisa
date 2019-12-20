@@ -1,0 +1,664 @@
+a:260:{s:10:"theme_skin";s:7:"general";s:11:"theme_color";s:7:"#24f733";s:10:"menu_color";s:7:"#6000ad";s:15:"menu_fore_color";s:0:"";s:15:"user_menu_color";s:7:"#6000ad";s:20:"user_menu_fore_color";s:7:"#ff007c";s:21:"show_theme_customizer";s:2:"no";s:26:"remember_visitors_settings";s:2:"no";s:18:"responsive_layouts";s:3:"yes";s:7:"favicon";s:55:"http://ligo.pe/wp-content/uploads/2016/09/favicon-1.png";s:10:"custom_css";s:16351:"/* Menu separator line */
+.topWrap .topMenuStyleFon > ul > li > a {
+    height: 18px;
+    line-height: 18px;
+    font-family: 'nexa_boldregular';
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #00f700;
+}
+
+/* Menu background color */
+.topWrap .topMenuStyleFon > ul > li > a:hover {
+    background: rgba(255, 255, 255, 0);
+    -webkit-transition: color, background 0.3s ease-out;
+    -moz-transition: color, background 0.3s ease-out;
+    -ms-transition: color, background 0.3s ease-out;
+    -o-transition: color, background 0.3s ease-out;
+    transition: color, background 0.3s ease-out;
+}
+.topWrap .topMenuStyleFon > ul > li > a:hover{ background:none !important;}
+.topWrap .topMenuStyleFon > ul > li.sfHover > a:hover { 
+border-style: solid; 
+border-color:none; 
+background:none; 
+margin:0px ; 
+border-width: 0 1px 0 0;
+border-color: #00f700;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+
+/* corrique color del menu  Activo*/
+.current-menu-item a {
+    color: #24f733 !important;
+}
+
+/* space menu */
+    header.noFixMenu.menu_right .topWrap .topMenuStyleFon>ul>li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* icon Social */
+
+i.Defaults-twitter:hover { color: #ff007c;}
+i.Defaults-envelope:hover { color: #ff007c;}
+i.Defaults-whatsapp:hover { color: #ff007c;}
+i.Defaults-youtube-play:hover { color: #ff007c;}
+i.Defaults-facebook.facebook-f:hover { color: #ff007c;}
+
+i.Defaults-facebook.facebook-f, i.Defaults-twitter,i.Defaults-youtube-play, i.Defaults-envelope, i.Defaults-whatsapp  {
+    font-weight: 300;
+    font-size: 20px;
+    color: #24f733;
+}
+li.menu-item-135, li.menu-item-136, li.menu-item-137, li.menu-item-148, li.menu-item-149 {
+    margin-top: 7px !important;
+}
+
+/*Menu Top  Social*/
+.topWrap .usermenu_area a {
+    font-family: 'nexa_boldregular';
+}
+.topWrap .topMenuStyleFon > ul {
+    margin-top: 0.3 em;
+}
+
+/*Menu Top botones estilo*/
+li.menu-item-757, li.menu-item-133 {
+    padding: 2px 20px;
+    background: #520094;
+    border-radius: 25px;
+}
+li.menu-item-757:hover, li.menu-item-133:hover {
+    padding: 2px 20px;
+    background: #390166;
+    border-radius: 25px;
+}
+li.menu-item-757:hover, li.menu-item-133:activer {
+    background: #390166;
+}
+
+.topWrap .usermenu_area a:hover {
+    color: #24f733 !important;
+    text-decoration: none;
+}
+/*espacio de top menu y cuadrado del header*/
+.menuUsItem.menuItemRight {
+    padding-top: 40px;
+}
+header.noFixMenu .topWrap .logo {
+    padding: 0px 0 0 0;
+}
+.mainmenu_area {
+    margin-top: -35px;
+}
+#mainmenu {
+    font-weight: bold;
+}
+/*espacio lateral de boton*/
+span.ubtn-data.ubtn-text {
+    margin: 3px 30px !important;
+}
+/*Texto blanco*/
+h5.texto-blanco, h1.texto-blanco, h2.texto-blanco,p.texto-blanco,  h4.texto-blanco{
+    color: #fff;
+    font-family: 'pantonblack_italic_caps' !important;
+}
+
+/*Tachado de Texto*/
+span.tachado:after {
+    margin-top: -0.69em;
+    position: relative;
+    caption-side: bottom;
+    display: table-caption;
+    content: "";
+    border-bottom: 0.2em solid #00f700;
+}
+span.tachado {    text-decoration: none;    display: inline-table;}
+
+span.tachado2:after {
+    margin-top: -0.68em;
+    position: relative;
+    caption-side: bottom;
+    display: table-caption;
+    content: "";
+    border-bottom: 0.2em solid #6000ad;
+}
+span.tachado2 {    text-decoration: none;    display: inline-table;}
+span.tachado-3:after {
+    margin-top: -0.68em;
+    position: relative;
+    caption-side: bottom;
+    display: table-caption;
+    content: "";
+    border-bottom: 0.2em solid #ff007c;
+}
+span.tachado-3 {    text-decoration: none;    display: inline-table;}
+
+/*Linea separadora de columnas*/
+div#columna-1 {
+    height: 280px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #8338bf;
+}
+
+div#columna-all {
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #d7bfeb;
+}
+
+/*Linea separadora de columnas*/
+div#columna-gris {
+    height: 300px;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #a7a7a7;
+}
+
+div#columna-linebla {
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #ffffff;
+}
+/*Icono arriba ajustes / boton hover */
+.top-icon .aio-icon-header h3.aio-icon-title {
+    margin: 20px 0 0px !important;
+}
+.aio-icon-header h3.aio-icon-title {
+    padding: 0 0 25px 0;
+}
+/*boton hover icob box*/
+a.aio-icon-read.xx {
+    font-weight: bold;
+    margin: 30px 50px;
+    max-width: 60%;
+    transition: all .3s;
+    display: block;
+    text-align: center;
+    padding: 6px 20px !important;
+    background: #44007a;
+    border-radius: 25px;
+    color: #25f733;
+}
+a.aio-icon-read.xx:hover {
+    background: #24f733;
+    color: #6100ae;
+}
+
+/*Menu Social Footer*/
+ul#menu-redes-sociales {
+    /* float: left; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul#menu-redes-sociales li {
+   float: left;
+   margin: 0 0 0 10px;
+   font-size: 24px;
+}
+h3.title {  color: #24f733; padding-bottom: 27px}
+aside#text-3, aside#nav_menu-5 {   margin-left: 50px;}
+
+/*Menu Footer list*/
+.menu-menu-ligo-container,.menu-menu-ligo-2-container {
+    color: #fff;
+}
+ul#menu-menu-ligo a, ul#menu-menu-ligo-2 a {
+    font-weight: bold;
+}
+ul#menu-menu-ligo a:hover, ul#menu-menu-ligo-2 a:hover {
+     color: #ff007c;
+}
+
+/*Chat*/
+span.scx-title {
+    padding-right: 20px !important;
+}
+
+/*Boton Scroll*/
+.upToScroll {
+    height: 37px;
+    background: #44007a;
+    border: 0px solid #6000ad;
+-webkit-border-radius: 5px;
+-webkit-border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+-moz-border-radius: 5px;
+-moz-border-radius-bottomright: 0px;
+-moz-border-radius-bottomleft: 0px;
+border-radius: 5px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+.upToScroll.buttonShow{ bottom: 0px;}
+}
+
+/*Fondo de Footer*/
+.userFooterSection.custom {background: #231f20 !important;}
+.vc_row.wpb_row.vc_row-fluid.vc_custom_1474774536651.vc_row-has-fill {
+    background: #231f20;
+}
+
+/*Botones header */
+div#comprala, div#activala,div#recargala  {
+    margin: -1px 2px;
+    padding: 0;
+    width: 240px;
+    max-width: 240px;
+}
+span.ubtn-data.ubtn-text {
+    font-family: 'pantonblack_italic_caps' !important;
+    letter-spacing: 0.04em;
+}
+.ubtn {
+    padding: 12px 20px;
+}
+
+/* user header */
+.userHeaderSection, .userFooterSection {overflow:hidden;}
+.userHeaderSection.grey, .userHeaderSection.custom {
+	background: #50028f; 
+	background: -moz-linear-gradient(top,  #50028f 21%, #490084 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(21%,#50028f), color-stop(100%,#490084)); 
+	background: -webkit-linear-gradient(top,  #50028f 21%,#490084 100%); 
+	background: -o-linear-gradient(top,  #50028f 21%,#490084 100%); 
+	background: -ms-linear-gradient(top,  #50028f 21%,#490084 100%); 
+	background: linear-gradient(to bottom,  #50028f 21%,#490084 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50028f', endColorstr='#490084',GradientType=0 );
+color:#fff;
+}
+
+/*Botones Modal*/
+.btn-modal-lg  {
+     font-family: 'pantonblack_italic_caps' !important;
+     letter-spacing: 0.04em;
+     padding: 9px 40px !important;
+     -webkit-border-radius: 25px !important;
+     -moz-border-radius: 25px !important;
+     border-radius: 25px !important;
+     border: none;
+     color: #44007a !important;
+     font-size: 15px !important;
+}
+
+.btn-modal-lg:hover {
+    color: #24f733 !important;
+    background: #6000ad !important;
+}
+
+button.ubtn-large {
+    font-size: 15px !important;
+    margin: 0 auto;
+    align-items: center;
+    display: block;
+}
+
+
+/*Circulo hover*/
+.circulo {
+    text-align: center;
+    display: inline-block;
+    top: 50%;
+    border: 4px solid #fff;
+    background: #6001ac;
+    width: 210px;
+    height: 210px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.circulo h4 {
+    margin: 2em;
+}
+
+ul.listmorada {
+    color: #6001ac;
+}
+strong {
+    font-weight: bold;
+}
+
+.rev-btn, .rev-btn:visited {
+    text-transform: capitalize !important;
+}
+
+a, a.linkrojo {color: #d40082;font-weight: bold;}
+aside#nav_menu-4 a, aside#nav_menu-2 a { color: #888;}
+
+/*Color del acordion en pregntas frecuentes*/
+.sc_accordion_title {
+    font-family: 'pantonblack_italic_caps';
+    color: #6000ad;
+}
+.sc_accordion.sc_accordion_style_2 .sc_accordion_item.sc_active .sc_accordion_title{
+color:#000 !important;
+}
+/*lista ligo*/
+.listaligo li:before {
+    content: close-quote;
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 30px;
+    margin-top: -1.3em;
+    background: #24f733;
+    height: 0.8em;
+    width: 0.8em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    border-radius: 2em;
+}
+.listaligo li {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .5em;
+}
+
+
+/*labla Transparente*/
+table {
+  max-width: 100%  !important;
+  margin: 10px auto !important;
+}
+caption {
+  font-size: 1.6em  !important;
+  font-weight: 400 !important;
+  padding: 10px 0 !important;
+}
+thead th, tbody th {
+  font-weight: 400 !important;
+  background: #6000ad !important;
+  color: #FFF !important;
+}
+tr {
+  background: #f4f7f8 !important;
+  border-bottom: 1px solid #FFF !important;
+  margin-bottom: 5px !important;
+}
+tr:nth-child(even) {
+  background: #e8eeef !important;
+}
+th, td {
+  text-align: left !important;
+  padding: 20px !important;
+  font-weight: 300 !important;
+}
+tfoot tr {
+  background: none !important;
+}
+tfoot td {
+  padding: 10px 2px !important;
+  font-size: 0.8em !important;
+  font-style: italic !important;
+  color: #6d6d6d !important;
+  font-weight: bold !important;
+}
+table td, table th {  border: 1px solid #d7d7d7 !important;}
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body {
+    background-color: #d7d7d7 !important;
+}
+.vc_tta-panel-body {    
+padding: 2em !important;
+}
+
+span.vc_tta-title-text {
+    font-family: 'pantonblack_italic_caps';
+    color: #6000ad;
+}
+h4.vc_tta-panel-title {
+    padding: 1em;
+}
+.fa-chevron-down:before {
+    content: "f078";
+    background: #24f733;
+    border-radius: 50%;
+    padding: 0.2em;
+    color: #6000ad;
+}
+.columns1_1 {
+    width: 100% !important;
+}
+th.tabcol1 {
+-webkit-border-top-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+border-top-left-radius: 10px;
+}
+th.tabcol2 {
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+border-top-right-radius: 10px;
+}
+th.tabcol3 {
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-left-radius: 10px;
+}
+td.tabcol4 {
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+@media only screen and (max-width: 479px) {
+.topWrap .usermenu_area ul.usermenu_list {
+    display: none !important;
+}
+header.noFixMenu .topWrap .logo img {
+    height: 80px;
+}
+div#columna-1 {
+    border-width: 0;
+}
+.sc_content.main {
+    width: 80%;
+}
+div#columna-all {
+    border-width: 0;
+}
+div#comprala, div#activala, div#recargala {
+    max-width: 100%;
+}
+.ubtn-large {
+    padding: 0px 0px !important;
+}
+div#columna-gris {
+    border-width: 0;
+}
+span.ubtn-data.ubtn-text {
+    margin: 0px !important;
+}
+}
+
+
+a#botomnuevoligo {
+    border: 0;
+    font-family: 'pantonblack_italic_caps';
+    padding: 0em 3em;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    color: #00f700;
+}
+a#botomnuevoligo:hover {
+    color: #7000b2;
+    background: #00f700 !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+}
+/*Formulario*/
+div#fomrulario-pidela {
+    padding: 4em;
+}
+/*Mapa*/
+div.cspm_zoom_in_control img, div.cspm_zoom_out_control img {
+     width: 25px!important;
+ }
+div.cspm_zoom_in_control {
+    border-bottom: 1px solid #24f733;
+}
+div.cspm_zoom_in_control:hover, div.cspm_zoom_out_control:hover {
+background-color: rgb(68, 0, 122);
+}
+
+/*Selecciona tarjetas*/
+
+
+/*Add styles for all option labels*/
+.iphorm-inner .iphorm_7_36-input-li label {
+    color: rgba(255, 255, 255, 0);
+    position: relative;
+    padding: 80px 10px 10px 10px;
+    min-width: 133px;
+    border: 1px solid #000;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+/*Add styles hovering all labels*/
+.iphorm-inner .iphorm_7_36-input-li label:hover {
+    border: 1px solid #2cdb41;
+    background-color: #111;
+}
+/*Add styles hovering all labels*/
+input[type="radio"]:checked {
+    border: 1px solid #F22A5E;
+    background-color: #F22A5E;
+}
+/*Optional - Have the CheckBox or Multiple Choice box positioned top right. */
+.iphorm-inner .iphorm_7_36-input-li div.radio, .iphorm-inner .iphorm_7_36-input-li div.checker, .iphorm-inner .iphorm_7_36-input-li input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+/*Optional - Extra space between Options */
+.iphorm-inner .iphorm_7_36-input-li {
+    padding-right: 15px;
+}
+/*SEQUENCE*/
+/*First option label - add Background image here*/
+.iphorm-inner label.iphorm_7_36_1_label {
+    background: #222 url(http://ligo.pe/wp-content/uploads/2016/10/tarjerta-verde.png) no-repeat center 5px;
+}
+/*Second option label - add Background image here*/
+.iphorm-inner label.iphorm_7_36_2_label {
+    background: #222 url(http://ligo.pe/wp-content/uploads/2016/10/tarjerta-morada.png) no-repeat center 5px;
+}
+.aio-icon-component.lista-separador.style_1 {
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #d7bfeb;
+}
+.sc_popup_light:before, .sc_banner:before {
+    background-color: #6000ad !important;
+}
+
+/*Table Tarifario*/
+tr.colortab td {
+    background: #f4f7f8;
+}
+tr.colortab2 td {
+    background: #e8eeef;
+}
+tr.moradotab {
+    font-weight: 400 !important;
+    background: #6000ad !important;
+    color: #FFF !important;
+}
+
+/*Mapa finales*/
+.cspm_infobox_content .title {
+    color: #6000ad;
+    font-weight: bold;
+}
+
+div.search_form_btn {
+    top: 148px;
+    left: 10px;
+    padding: 10px 14.5px;
+    background-color: rgb(96, 0, 173);
+}
+div[class^=codespacing_map_geotarget]  {
+    padding: 10px 14.5px;
+    background-color: rgb(96, 0, 173);
+    top: -13px;
+}
+
+div.search_form_btn:hover, div[class^=codespacing_map_geotarget]:hover {
+    background: rgb(68,0,122);
+}
+div.search_form_btn img, div[class^=codespacing_map_geotarget] img{
+    width: 25px!important;
+}
+div.cspm_search_form_error {
+    background: rgb(255, 0, 124);
+}
+div[class^=search_form_container_] {
+    top: 10px;
+    left: 69px;
+}
+div[class^=search_form_container_] form div[class^=cspm_submit_search_form_] {
+    background: #ff007c;
+}
+.irs-single {
+     background: #ff007c;
+}
+.irs-from:after, .irs-single:after, .irs-to:after {
+    border-top-color: #ff007c;
+}
+div[class^=search_form_container_] form label {
+    color: #ff007c;
+}
+
+/*Mapa carrusel*/
+.item_img {  display: none;}
+.cspm_infobox_img { display: none;}
+.cspm_infobox_content {width: 380px !important; }
+div.cspm_infobox_content_container.cspm_type1 { height: 100px; }
+
+.jcarousel-skin-default .jcarousel-next-vertical, .jcarousel-skin-default .jcarousel-prev-vertical {
+display: none !important;
+}
+.details_title a {
+    font-family: 'pantonblack_caps';
+    color: #6000ad !important;
+}
+.codespacing_progress_map_area * {
+    font-family: 'nexa_lightregular',sans-serif;
+}
+.details_container, .details_infos, .details_title {
+    width: 100% !important;
+}
+.details_infos p {
+    padding: 0px !important;
+}
+
+div[class^=search_form_container_] {
+    min-width: 500px;
+}
+";s:11:"custom_code";s:423:"<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54966316-2', 'auto');
+  ga('send', 'pageview');
+
+</script>";s:10:"body_style";s:10:"fullscreen";s:13:"load_bg_image";s:6:"always";s:8:"bg_color";s:7:"#bfbfbf";s:10:"bg_pattern";s:0:"";s:17:"bg_custom_pattern";s:0:"";s:8:"bg_image";s:0:"";s:15:"bg_custom_image";s:0:"";s:24:"bg_custom_image_position";s:8:"left_top";s:13:"show_video_bg";s:2:"no";s:21:"video_bg_youtube_code";s:0:"";s:12:"video_bg_url";s:0:"";s:16:"video_bg_overlay";s:2:"no";s:10:"logo_image";s:57:"http://ligo.pe/wp-content/uploads/2016/09/Logo-ligo-1.png";s:8:"logo_top";s:0:"";s:10:"logo_fixed";s:0:"";s:9:"logo_side";s:0:"";s:9:"logo_text";s:0:"";s:11:"logo_slogan";s:0:"";s:11:"logo_height";s:2:"94";s:11:"logo_offset";s:1:"0";s:10:"logo_align";s:4:"left";s:17:"logo_image_footer";s:0:"";s:24:"logo_image_footer_height";s:2:"30";s:14:"show_top_panel";s:5:"above";s:9:"menu_main";s:14:"menu-principal";s:10:"menu_style";s:3:"fon";s:13:"menu_position";s:4:"none";s:10:"menu_align";s:5:"right";s:15:"menu_responsive";s:4:"1024";s:20:"menu_responsive_open";s:5:"click";s:10:"menu_width";s:0:"";s:16:"menu_description";s:5:"below";s:14:"show_user_menu";s:3:"yes";s:9:"menu_user";s:14:"activa-tu-ligo";s:17:"show_contact_info";s:3:"yes";s:13:"show_currency";s:2:"no";s:9:"show_cart";s:2:"no";s:14:"show_languages";s:2:"no";s:10:"show_login";s:2:"no";s:16:"right_panel_demo";s:1:"0";s:15:"show_left_panel";s:2:"no";s:9:"menu_side";s:7:"default";s:9:"logo_icon";s:0:"";s:16:"show_right_panel";s:2:"no";s:10:"menu_panel";s:7:"default";s:18:"right_panel_button";s:5:"fixed";s:15:"right_panel_tab";s:1:"3";s:8:"menu_toc";s:2:"no";s:13:"menu_toc_home";s:2:"no";s:12:"menu_toc_top";s:2:"no";s:15:"custom_sidebars";a:1:{i:0;s:0:"";}s:16:"show_sidebar_top";s:2:"no";s:11:"sidebar_top";s:11:"sidebar-top";s:17:"show_sidebar_main";s:9:"fullwidth";s:12:"sidebar_main";s:12:"sidebar-main";s:19:"show_sidebar_footer";s:2:"no";s:20:"sidebar_footer_style";s:4:"dark";s:14:"sidebar_footer";s:14:"sidebar-footer";s:18:"show_sidebar_panel";s:2:"no";s:13:"sidebar_panel";s:13:"sidebar-panel";s:11:"slider_show";s:2:"no";s:14:"slider_display";s:4:"none";s:13:"slider_height";s:3:"500";s:13:"slider_engine";s:4:"flex";s:12:"slider_alias";s:0:"";s:15:"slider_category";s:0:"";s:12:"slider_posts";s:1:"5";s:14:"slider_orderby";s:4:"date";s:12:"slider_order";s:4:"desc";s:15:"slider_interval";s:4:"7000";s:17:"slider_pagination";s:2:"no";s:15:"slider_info_box";s:3:"yes";s:17:"slider_info_fixed";s:2:"no";s:20:"slider_info_category";s:3:"yes";s:14:"slider_reviews";s:3:"yes";s:19:"slider_descriptions";s:0:"";s:16:"show_user_header";s:4:"none";s:19:"user_header_content";s:2247:"<p>[vc_row css=".vc_custom_1474853471517{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;}"][vc_column][trx_content top="0" bottom="0" id="menu-cabecera"][trx_columns count="5" top="0" bottom="0" left="0" right="0"][trx_column_item][/trx_column_item][trx_column_item align="center" id="comprala"][trx_block align="center" height="40px" top="0" bottom="0" left="0" right="0"][ult_buttons btn_title="CÓMPRALA" btn_link="url:http%3A%2F%2Fligo.pe%2Fcompra-tu-ligo%2F|||" btn_align="ubtn-center" btn_size="ubtn-custom" btn_width="400" btn_height="40" btn_padding_left="20" btn_padding_top="5" btn_title_color="#ffffff" btn_bg_color="#cac9c9" btn_hover="ubtn-bottom-bg" btn_bg_color_hover="#ff007c" btn_title_color_hover="#ffffff" icon_size="32" btn_icon_pos="ubtn-sep-icon-at-left" btn_font_size="desktop:15px;"][/trx_block][/trx_column_item][trx_column_item id="activala"][trx_block align="center" height="40px" top="0" bottom="0" left="0" right="0"][ult_buttons btn_title="ACTÍVALA" btn_link="url:http%3A%2F%2Fligo.pe%2Factivala%2F|||" btn_align="ubtn-center" btn_size="ubtn-custom" btn_width="400" btn_height="40" btn_padding_left="20" btn_padding_top="5" btn_title_color="#ffffff" btn_bg_color="#cac9c9" btn_hover="ubtn-bottom-bg" btn_bg_color_hover="#ff007c" btn_title_color_hover="#ffffff" icon_size="32" btn_icon_pos="ubtn-sep-icon-at-left" btn_font_size="desktop:15px;"][/trx_block][/trx_column_item][trx_column_item id="recargala"][trx_block align="center" height="40px" top="0" bottom="0" left="0" right="0"][ult_buttons btn_title="RECÁRGALA" btn_link="url:http%3A%2F%2Fligo.pe%2Frecargala%2F|||" btn_align="ubtn-center" btn_size="ubtn-custom" btn_width="400" btn_height="40" btn_padding_left="20" btn_padding_top="5" btn_title_color="#ffffff" btn_bg_color="#cac9c9" btn_hover="ubtn-bottom-bg" btn_bg_color_hover="#ff007c" btn_title_color_hover="#ffffff" icon_size="32" btn_icon_pos="ubtn-sep-icon-at-left" btn_font_size="desktop:15px;"][/trx_block][/trx_column_item][trx_column_item][/trx_column_item][/trx_columns][/trx_content][/vc_column][/vc_row]</p>";s:13:"show_top_page";s:2:"no";s:15:"show_page_title";s:2:"no";s:16:"show_breadcrumbs";s:2:"no";s:21:"breadcrumbs_max_level";s:1:"0";s:16:"show_user_footer";s:6:"custom";s:19:"user_footer_content";s:911:"<p>[vc_row css=".vc_custom_1474774536651{background-color: #231f20 !important;}"][vc_column][trx_content top="2em" bottom="0"][trx_columns count="1"][trx_column_item][trx_block columns="1_5"][vc_widget_sidebar sidebar_id="sidebar-footer"][/trx_block][trx_block columns="1_3"][vc_widget_sidebar sidebar_id="sidebar-panel"][/trx_block][trx_block columns="1_2" left="0" right="0"][vc_widget_sidebar sidebar_id="sidebar-top"][/trx_block][/trx_column_item][/trx_columns][/trx_content][trx_content top="0" bottom="2em"][trx_columns count="1"][trx_column_item][trx_block columns="2_3"][vc_column_text]<a href="http://ligo.pe/wp-content/uploads/2016/10/pie-de-pagina-1.png"><img class="alignnone wp-image-1025 size-full" src="http://ligo.pe/wp-content/uploads/2016/10/pie-de-pagina-1.png" width="603" height="83" /></a>[/vc_column_text][/trx_block][/trx_column_item][/trx_columns][/trx_content][/vc_column][/vc_row]</p>";s:23:"show_contacts_in_footer";s:2:"no";s:22:"show_twitter_in_footer";s:2:"no";s:29:"show_copyright_area_in_footer";s:2:"no";s:16:"footer_copyright";s:41:"ThemeREX &copy; 2014 All Rights Reserved ";s:17:"footer_terms_text";s:12:"Terms of Use";s:17:"footer_terms_link";s:0:"";s:18:"footer_policy_text";s:14:"Privacy Policy";s:18:"footer_policy_link";s:0:"";s:14:"googlemap_show";s:2:"no";s:16:"googlemap_height";s:3:"400";s:17:"googlemap_address";s:0:"";s:16:"googlemap_latlng";s:0:"";s:15:"googlemap_title";s:0:"";s:21:"googlemap_description";s:0:"";s:14:"googlemap_zoom";s:2:"16";s:15:"googlemap_style";s:6:"style1";s:16:"googlemap_marker";s:55:"http://ligo.pe/wp-content/uploads/2016/09/map-point.png";s:12:"retina_ready";s:1:"1";s:18:"substitute_gallery";s:2:"no";s:24:"substitute_slider_engine";s:6:"swiper";s:21:"gallery_instead_image";s:3:"yes";s:18:"gallery_max_slides";s:1:"5";s:12:"popup_engine";s:8:"magnific";s:13:"popup_gallery";s:3:"yes";s:25:"substitute_gallery_layout";s:2:"no";s:16:"substitute_audio";s:3:"yes";s:16:"substitute_video";s:3:"yes";s:16:"use_mediaelement";s:3:"yes";s:12:"sound_enable";s:2:"no";s:14:"sound_mainmenu";s:0:"";s:21:"sound_mainmenu_enable";s:2:"no";s:15:"sound_othermenu";s:0:"";s:22:"sound_othermenu_enable";s:2:"no";s:13:"sound_buttons";s:0:"";s:20:"sound_buttons_enable";s:3:"yes";s:11:"sound_links";s:0:"";s:18:"sound_links_enable";s:2:"no";s:17:"typography_custom";s:3:"yes";s:18:"typography_h1_font";s:32:"pantonblack_caps (uploaded font)";s:18:"typography_h1_size";s:2:"55";s:24:"typography_h1_lineheight";s:2:"65";s:20:"typography_h1_weight";s:3:"400";s:19:"typography_h1_style";s:0:"";s:19:"typography_h1_color";s:7:"#222222";s:18:"typography_h2_font";s:32:"pantonblack_caps (uploaded font)";s:18:"typography_h2_size";s:2:"40";s:24:"typography_h2_lineheight";s:2:"45";s:20:"typography_h2_weight";s:3:"400";s:19:"typography_h2_style";s:0:"";s:19:"typography_h2_color";s:7:"#222222";s:18:"typography_h3_font";s:32:"pantonblack_caps (uploaded font)";s:18:"typography_h3_size";s:2:"24";s:24:"typography_h3_lineheight";s:2:"28";s:20:"typography_h3_weight";s:3:"400";s:19:"typography_h3_style";s:0:"";s:19:"typography_h3_color";s:7:"#222222";s:18:"typography_h4_font";s:32:"pantonblack_caps (uploaded font)";s:18:"typography_h4_size";s:2:"18";s:24:"typography_h4_lineheight";s:2:"24";s:20:"typography_h4_weight";s:3:"300";s:19:"typography_h4_style";s:0:"";s:19:"typography_h4_color";s:7:"#222222";s:18:"typography_h5_font";s:33:"nexa_lightregular (uploaded font)";s:18:"typography_h5_size";s:2:"22";s:24:"typography_h5_lineheight";s:2:"25";s:20:"typography_h5_weight";s:3:"500";s:19:"typography_h5_style";s:0:"";s:19:"typography_h5_color";s:7:"#222222";s:18:"typography_h6_font";s:32:"nexa_boldregular (uploaded font)";s:18:"typography_h6_size";s:2:"18";s:24:"typography_h6_lineheight";s:2:"18";s:20:"typography_h6_weight";s:3:"300";s:19:"typography_h6_style";s:0:"";s:19:"typography_h6_color";s:7:"#ffffff";s:17:"typography_p_font";s:33:"nexa_lightregular (uploaded font)";s:17:"typography_p_size";s:2:"16";s:23:"typography_p_lineheight";s:2:"22";s:19:"typography_p_weight";s:3:"300";s:18:"typography_p_style";s:0:"";s:18:"typography_p_color";s:7:"#222222";s:10:"blog_style";s:7:"excerpt";s:11:"hover_style";s:3:"dir";s:9:"hover_dir";s:3:"dir";s:18:"dedicated_location";s:0:"";s:12:"show_filters";s:2:"no";s:15:"filter_taxonomy";s:4:"tags";s:9:"blog_sort";s:4:"date";s:10:"blog_order";s:4:"desc";s:14:"posts_per_page";s:2:"12";s:22:"post_excerpt_maxlength";s:3:"250";s:30:"post_excerpt_maxlength_masonry";s:3:"150";s:12:"single_style";s:15:"single-standard";s:12:"allow_editor";s:2:"no";s:19:"show_featured_image";s:2:"no";s:15:"show_post_title";s:2:"no";s:25:"show_post_title_on_quotes";s:2:"no";s:14:"show_post_info";s:2:"no";s:25:"show_text_before_readmore";s:2:"no";s:16:"show_post_author";s:2:"no";s:14:"show_post_tags";s:2:"no";s:18:"show_post_counters";s:2:"no";s:17:"show_post_related";s:2:"no";s:18:"post_related_count";s:1:"4";s:17:"post_related_sort";s:4:"date";s:18:"post_related_order";s:4:"desc";s:18:"show_post_comments";s:2:"no";s:12:"exclude_cats";s:0:"";s:15:"blog_pagination";s:5:"pages";s:21:"blog_pagination_style";s:5:"pages";s:13:"blog_counters";s:5:"views";s:14:"close_category";s:8:"parental";s:15:"show_date_after";s:2:"30";s:12:"show_reviews";s:3:"yes";s:17:"reviews_max_level";s:1:"5";s:13:"reviews_style";s:5:"stars";s:24:"reviews_criterias_levels";s:26:"bad,poor,normal,good,great";s:13:"reviews_first";s:6:"author";s:14:"reviews_second";s:4:"show";s:16:"reviews_can_vote";s:3:"all";s:17:"reviews_criterias";a:1:{i:0;s:0:"";}s:13:"contact_email";s:12:"info@ligo.pe";s:17:"contact_address_1";s:24:"Company address (part 1)";s:17:"contact_address_2";s:24:"Company address (part 2)";s:13:"contact_phone";s:11:"555 555 555";s:11:"contact_fax";s:8:"555 5555";s:12:"contact_info";s:0:"";s:26:"message_maxlength_contacts";s:4:"1000";s:26:"message_maxlength_comments";s:4:"1000";s:13:"mail_function";s:7:"wp_mail";s:12:"social_icons";a:1:{i:0;a:2:{s:3:"url";s:0:"";s:4:"icon";s:0:"";}}s:10:"show_share";s:3:"yes";s:13:"share_buttons";a:1:{i:0;a:2:{s:3:"url";s:0:"";s:4:"icon";s:0:"";}}s:16:"twitter_username";s:0:"";s:20:"twitter_consumer_key";s:0:"";s:23:"twitter_consumer_secret";s:0:"";s:17:"twitter_token_key";s:0:"";s:20:"twitter_token_secret";s:0:"";s:13:"twitter_count";s:1:"5";s:12:"social_login";s:0:"";s:11:"show_search";s:2:"no";s:15:"use_ajax_search";s:2:"no";s:22:"ajax_search_min_length";s:1:"4";s:17:"ajax_search_delay";s:3:"500";s:17:"ajax_search_types";s:0:"";s:23:"ajax_search_posts_count";s:1:"5";s:23:"ajax_search_posts_image";s:3:"yes";s:22:"ajax_search_posts_date";s:3:"yes";s:24:"ajax_search_posts_author";s:3:"yes";s:26:"ajax_search_posts_counters";s:3:"yes";s:29:"notify_about_new_registration";s:2:"no";s:22:"use_ajax_views_counter";s:3:"yes";s:17:"admin_add_filters";s:3:"yes";s:16:"admin_dummy_data";s:2:"no";s:21:"admin_update_notifier";s:2:"no";s:11:"custom_menu";s:2:"no";s:13:"admin_emailer";s:3:"yes";s:17:"admin_po_composer";s:2:"no";s:16:"clear_shortcodes";s:3:"yes";s:10:"debug_mode";s:2:"no";s:14:"packed_scripts";s:3:"yes";s:15:"compose_scripts";s:2:"no";s:8:"gtm_code";s:0:"";s:9:"gtm_code2";s:0:"";s:10:"api_google";s:39:"AIzaSyB31UtKyxDRAQNAJino6ky7H5Qg1Q6HKwg";}

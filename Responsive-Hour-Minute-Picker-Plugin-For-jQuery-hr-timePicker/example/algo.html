@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="row black">
+        <h1>
+            <?!= title ?>
+        </h1>
+
+        <div class="input-field col s6">
+            <input type="text" id="fn" class="validate">
+            <label for="fn">Nombres</label>
+        </div>
+
+        <div class="input-field col s6">
+            <input type="text" id="ln" class="validate">
+            <label for="ln">Apellidos</label>
+        </div>
+
+        <div class="input-field col s6">
+            <select id="docId">
+              <option value="DNI">DNI</option>
+              <option value="C.E">C.E</option>
+              <option value="Otro">Otro</option>
+        </select>
+            <label>Tipo de documento</label>
+        </div>
+
+        <div class="input-field col s6">
+            <label for="docNro">numero de documento</label>
+            <input type="text" id="docNro" class="validate">
+        </div>
+
+        <div class="input-field col s6">
+            <label for="docNro">numero de Contacto</label>
+            <input type="number" id="telefono" class="validate">
+        </div>
+        <div class="form-row">
+            <label>Boleta</label>
+            <input type="text" id="boleta">
+        </div>
+
+        <div class="input-field col s6">
+            <select id="puntos">
+                  
+
+
+
+         </select>
+            <label>Tiempo </label>
+        </div>
+
+        <div class=" col s6">
+            <button id="btn" class="waves-effects waves-light btn-small"> 
+                <i class="material-icons left">add_circle_outline</i>click </button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
